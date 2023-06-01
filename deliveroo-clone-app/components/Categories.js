@@ -13,16 +13,16 @@ const Categories = () => {
       showsHorizontalScrollIndicator={false}
       className='w-[94vw]'
     >
-      <CategoriesCard imgUrl='https://links.papareact.com/wru' title='Testing 1' />
-      <CategoriesCard imgUrl='https://links.papareact.com/wru' title='Testing 2' />
-      <CategoriesCard imgUrl='https://links.papareact.com/wru' title='Testing 3' />
-      <CategoriesCard imgUrl='https://links.papareact.com/wru' title='Testing 3' />
-      <CategoriesCard imgUrl='https://links.papareact.com/wru' title='Testing 3' />
-      <CategoriesCard imgUrl='https://links.papareact.com/wru' title='Testing 3' />
-      <CategoriesCard imgUrl='https://links.papareact.com/wru' title='Testing 3' />
-      <CategoriesCard imgUrl='https://links.papareact.com/wru' title='Testing 3' />
-      <CategoriesCard imgUrl='https://links.papareact.com/wru' title='Testing 3' />
-      <CategoriesCard imgUrl='https://links.papareact.com/wru' title='Testing 3' />
+      <CategoriesCard imgUrl='https://links.papareact.com/gn7' title='Testing 1' />
+      <CategoriesCard imgUrl='https://links.papareact.com/gn7' title='Testing 2' />
+      <CategoriesCard imgUrl='https://links.papareact.com/gn7' title='Testing 3' />
+      <CategoriesCard imgUrl='https://links.papareact.com/gn7' title='Testing 3' />
+      <CategoriesCard imgUrl='https://links.papareact.com/gn7' title='Testing 3' />
+      <CategoriesCard imgUrl='https://links.papareact.com/gn7' title='Testing 3' />
+      <CategoriesCard imgUrl='https://links.papareact.com/gn7' title='Testing 3' />
+      <CategoriesCard imgUrl='https://links.papareact.com/gn7' title='Testing 3' />
+      <CategoriesCard imgUrl='https://links.papareact.com/gn7' title='Testing 3' />
+      <CategoriesCard imgUrl='https://links.papareact.com/gn7' title='Testing 3' />
     </ScrollView>
   )
 }
