@@ -10,3 +10,9 @@
   ```
   npm i react-native-heroicons react-native-svg
   ```
+
+- [Sanity](https://www.sanity.io/sonny)
+
+```
+  npm install -g @sanity/cli
+```
