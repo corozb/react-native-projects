@@ -13,6 +13,29 @@
 
 - [Sanity](https://www.sanity.io/sonny)
 
-```
-  npm install -g @sanity/cli
-```
+  ```
+    npm install -g @sanity/cli
+    cd indigo-clam
+    sanity start
+  ```
+
+  image url
+
+  ```
+    npm i @sanity/client @sanity/image-url
+  ```
+
+  To add cors domain
+
+  ```
+    sanity cors add http://localhost:3000/
+    sanity cors add http://localhost:19006/
+  ```
+
+  Deploy
+
+  ```
+    sanity deploy
+  ```
+
+  Backend [URL](https://deliverooclonecorozb.sanity.studio/desk)

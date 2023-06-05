@@ -2,7 +2,7 @@ export default {
   name: 'featured',
   title: 'Featured Menu categories',
   type: 'document',
-  field: [
+  fields: [
     {
       name: 'name',
       type: 'string',
