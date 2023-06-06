@@ -1,11 +1,30 @@
-import { View, Text, TouchableOpacity, Image } from 'react-native'
 import React from 'react'
+import { View, Text, TouchableOpacity, Image } from 'react-native'
+import { useNavigation } from '@react-navigation/native'
 import { StarIcon, MapPinIcon } from 'react-native-heroicons/outline'
 import { urlFor } from '../sanity'
 
 const RestaurantCards = ({ id, title, rating, genre, address, imgUrl, short_description, dishes, long, lat }) => {
+  const navigation = useNavigation()
+
   return (
-    <TouchableOpacity className='bg-white mr-3 shadow'>
+    <TouchableOpacity
+      className='bg-white mr-3 shadow'
+      onPress={() => {
+        navigation.navigate('Restaurant', {
+          id,
+          title,
+          rating,
+          genre,
+          address,
+          imgUrl,
+          short_description,
+          dishes,
+          long,
+          lat,
+        })
+      }}
+    >
       <Image
         source={{
           uri: urlFor(imgUrl).url(),
