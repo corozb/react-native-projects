@@ -12,6 +12,7 @@ const builder = imageUrlBuilder(client)
 export const urlFor = (source) => builder.image(source)
 
 // RUN THIS  to add exception for localhost 3000 CORS policy
-// sanity cors add http://localhost:3000
+// sanity cors add http://localhost:3000/
+// sanity cors add http://localhost:19006/
 
 export default client

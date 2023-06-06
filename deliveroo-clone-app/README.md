@@ -39,3 +39,18 @@
   ```
 
   Backend [URL](https://deliverooclonecorozb.sanity.studio/desk)
+
+  Santiy Query in Vision
+
+  ```
+        *[_type == "featured"] {
+              ...,
+              restaurants[] -> {
+                ...,
+                dishes[] ->,
+                  type -> {
+                    name
+                  }
+              }
+            }
+  ```
