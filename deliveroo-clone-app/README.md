@@ -54,3 +54,15 @@
               }
             }
   ```
+
+  - [Redux](https://redux-toolkit.js.org/introduction/getting-started)
+
+  ```
+    npm install @reduxjs/toolkit react-redux
+  ```
+
+  - create store.js
+  - provide Redux Store to React
+  - create slices
+  - reducers
+  - useDispatch and useSelector

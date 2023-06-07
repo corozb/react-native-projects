@@ -16,7 +16,6 @@ const Categories = () => {
       .then((data) => setCategories(data))
   }, [])
 
-  console.log(categories[0])
   return (
     <ScrollView
       contentContainerStyle={{
