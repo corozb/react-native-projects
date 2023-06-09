@@ -66,3 +66,11 @@
   - create slices
   - reducers
   - useDispatch and useSelector
+
+- [Animations](https://www.npmjs.com/package/react-native-animatable)
+  `npm install react-native-animatable --save`
+
+  remove the [background](https://www.unscreen.com/) from a git
+
+- [React Native Progress](https://www.npmjs.com/package/react-native-progress)
+  `npm i react-native-progress`
