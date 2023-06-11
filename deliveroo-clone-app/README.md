@@ -74,3 +74,6 @@
 
 - [React Native Progress](https://www.npmjs.com/package/react-native-progress)
   `npm i react-native-progress`
+
+- [MapView](https://docs.expo.dev/versions/latest/sdk/map-view/)
+  `npx expo install react-native-maps`

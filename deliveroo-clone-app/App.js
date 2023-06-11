@@ -1,3 +1,5 @@
+// import 'react-native-url-polyfill/auto'
+
 import { NativeWindStyleSheet } from 'nativewind'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
